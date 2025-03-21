@@ -1,0 +1,10 @@
+name: 'Hello World Action'
+description: 'Prints Hello World and the name of the person to greet'
+inputs:
+  name:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,0 +1,7 @@
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+    - name: Deploy to server
+      run: curl -H "Authorization: Bearer ${{ secrets.PRODUCTION_API_KEY }}" https://api.example.com/deploy

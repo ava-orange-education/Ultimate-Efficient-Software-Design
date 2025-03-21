@@ -1,0 +1,2 @@
+notifications:
+  slack: your-team:your-webhook-url

@@ -1,0 +1,6 @@
+notifications:
+  webhooks:
+    urls:
+      - https://your-webhook-url
+    on_success: always
+    on_failure: always
